@@ -22,7 +22,7 @@ target_currency_input = StringVar()
 target_currency_entry = Entry(root, textvariable=target_currency_input, width=20, font=("Helvetica"))
 target_currency_entry.grid(row=2, column=1, sticky=W, padx=3, pady=0)
 
-amount_input_label = Label(root, text="Amount for the convertion: ", width=0, font=("Helvetica"))
+amount_input_label = Label(root, text="Amount for the conversion: ", width=0, font=("Helvetica"))
 amount_input_label.grid(row=3, column=0, sticky=W, padx=3, pady=0)
 
 amount_input = StringVar()
