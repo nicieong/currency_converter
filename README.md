@@ -7,7 +7,7 @@ Features:
 - Support for various currencies.
 
 Prerequisites:
-- Python 3.x
+- Python 3.9 or newer release
 - Dependencies (Install using pip install -r requirements.txt)
 
 Installation:
@@ -17,10 +17,10 @@ Installation:
 
 Usage:
 - Run the application
-  1. python main.py
+  1. Go to project directory. Run Start.bat
   2. Enter the base currency, target currency, and the amount to convert in the GUI.
   3. Click the "Convert" button to get the converted amount.
-  Make sure to replace the placeholder API key in the main.py file with your API key, or you can have a test run with my API key.
+  Make sure to replace the placeholder API key in the src/main.py file with your API key, or you can have a test run with my API key.
 
 Acknowledgments:
 [api.getgeoapi.com](https://currency.getgeoapi.com/) for providing real-time currency exchange rates.
